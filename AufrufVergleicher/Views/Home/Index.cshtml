@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="jumbotron">
+    <h1>Landing Page</h1>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="glyphicon glyphicon-cloud-download" style="margin-right:10px"></div>
+        <i class="fa fa-file-pdf-o" style="margin-right:10px"></i>
+        Open Document
+    </div>
+    <div class="flcontainer col-xs-12">
+
+        @Html.ActionLink("PDF #1", "OpenNBG", "Home", new { @fname = "AufrufVergleicher.SLS_NES2800P_a.pdf" }, new { @class = "btn btn-default" })
+        @Html.ActionLink("PDF #2", "OpenNBG", "Home", new { @fname = "AufrufVergleicher.Lotse_NFR2970S_Vermittlerdaten_a.pdf" }, new { @class = "btn btn-default" })
+
+    </div>
+</div>
