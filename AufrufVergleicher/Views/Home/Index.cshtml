@@ -4,16 +4,28 @@
 <div class="jumbotron">
     <h1>Landing Page</h1>
 </div>
+<div><a href="https://github.com/DPnbg/AufrufVergleicher">sourcecode auf Github</a></div><br/>
 <div class="row">
     <div class="col-xs-12">
         <div class="glyphicon glyphicon-cloud-download" style="margin-right:10px"></div>
-        <i class="fa fa-file-pdf-o" style="margin-right:10px"></i>
+		<i class="fa fa-file-pdf-o" style="margin-right:10px"></i>
         Open Document
     </div>
     <div class="flcontainer col-xs-12">
-
-        @Html.ActionLink("PDF #1", "OpenNBG", "Home", new { @fname = "AufrufVergleicher.PDF1.pdf" }, new { @class = "btn btn-default" })
-        @Html.ActionLink("PDF #2", "OpenNBG", "Home", new { @fname = "AufrufVergleicher.PDF2.pdf" }, new { @class = "btn btn-default" })
+		<div class="row">
+			<div class="col-xs-3">
+				<div class="row">
+					<div class="col-xs-12">@Html.ActionLink("PDF #1 in BT4all", "OpenNBG", "Home", new { @fname = "AufrufVergleicher.PDF1.pdf" }, new { @class = "btn btn-default" })</div>
+					<div class="col-xs-12"><a href="/sv/l.svc/d/AufrufVergleicher.PDF1.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:20px;margin-right:5px"></i>PDF anzeigen</a></div>
+				</div>
+			</div>
+			<div class="col-xs-3">
+				<div class="row">
+					<div class="col-xs-12">@Html.ActionLink("PDF #2 in BT4all", "OpenNBG", "Home", new { @fname = "AufrufVergleicher.PDF2.pdf" }, new { @class = "btn btn-default" })</div>
+					<div class="col-xs-12"><a href="/sv/l.svc/d/AufrufVergleicher.PDF2.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:20px;margin-right:5px"></i>PDF anzeigen</a></div>
+				</div>
+			</div>
+		</div>
 
     </div>
 </div>
