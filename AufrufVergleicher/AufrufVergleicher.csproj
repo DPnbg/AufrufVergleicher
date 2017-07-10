@@ -172,6 +172,7 @@
     <EmbeddedResource Include="PDF1.pdf" />
     <EmbeddedResource Include="PDF2.pdf" />
     <EmbeddedResource Include="PDF3.pdf" />
+    <EmbeddedResource Include="PDF4.pdf" />
     <None Include="Properties\PublishProfiles\AufrufVergleicher20170516014541 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
