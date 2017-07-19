@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tarif:Antrag xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tarif="http://www.bipro.net/namespace/versicherung/tarifierung" xmlns:basis="http://www.bipro.net/namespace/basis" xmlns:nvg-tarif="http://www.nuernberger.de/bipro/versicherung/tarifierung" xmlns:nvg-gevo="http://www.nuernberger.de/bipro/gevo" xmlns:nvg-dt="http://www.nuernberger.de/bipro/datentypen" xmlns:pm="http://www.bipro.net/namespace/produktmodell" xmlns:dt="http://www.bipro.net/namespace/datentypen" xmlns:allg="http://www.bipro.net/namespace/allgemein" xmlns:gevo="http://www.bipro.net/namespace/gevo" xmlns:nvg-allg="http://www.nuernberger.de/bipro/allgemein" xmlns:partner="http://www.bipro.net/namespace/partner" xmlns:nvg-partner="http://www.nuernberger.de/bipro/partner" xmlns:pm-kf="http://www.bipro.net/namespace/versicherung/produktmodell/kraftfahrt" xmlns:nvg-pm="http://www.nuernberger.de/bipro/produktmodell" xmlns:nvg-pm-kf="http://www.nuernberger.de/bipro/versicherung/produktmodell/kraftfahrt" xmlns:vs-pm="http://www.bipro.net/namespace/versicherung/produktmodell" xmlns:fz="http://www.bipro.net/namespace/fahrzeug" xmlns:nvg-fz="http://www.nuernberger.de/bipro/fahrzeug">
+  <basis:Erweiterung xsi:type="nvg-tarif:CT_TAAErweiterung">
+    <nvg-gevo:ZusaetzlicheGeschaeftsvorgangDaten xsi:type="nvg-gevo:CT_TechnischeDaten"></nvg-gevo:ZusaetzlicheGeschaeftsvorgangDaten>
+    <nvg-gevo:Revision>700</nvg-gevo:Revision>
+    <nvg-gevo:Upgrade>4</nvg-gevo:Upgrade>
+    <nvg-gevo:BTVersion>
+      <nvg-gevo:Herkunft xsi:type="nvg-dt:ST_HerkunftAnwendung">0</nvg-gevo:Herkunft>
+      <nvg-gevo:Direktlink>false</nvg-gevo:Direktlink>
+      <nvg-gevo:Kundenrechner>false</nvg-gevo:Kundenrechner>
+    </nvg-gevo:BTVersion>
+    <nvg-gevo:AusgewaehltesProdukt>HaftpflichtKaskoInsassen</nvg-gevo:AusgewaehltesProdukt>
+    <nvg-tarif:Beitrag>
+      <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+      <pm:Betrag>
+        <allg:Betrag>590.42</allg:Betrag>
+        <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+      </pm:Betrag>
+      <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">1</pm:Zahlungsweise>
+      <pm:Steuer>
+        <allg:ArtID xsi:type="dt:ST_Steuerart">1</allg:ArtID>
+        <allg:Betrag>
+          <allg:Betrag>94.27</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </allg:Betrag>
+      </pm:Steuer>
+    </nvg-tarif:Beitrag>
+    <nvg-tarif:Beitrag>
+      <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+      <pm:Betrag>
+        <allg:Betrag>307.02</allg:Betrag>
+        <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+      </pm:Betrag>
+      <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">2</pm:Zahlungsweise>
+      <pm:Steuer>
+        <allg:ArtID xsi:type="dt:ST_Steuerart">1</allg:ArtID>
+        <allg:Betrag>
+          <allg:Betrag>49.02</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </allg:Betrag>
+      </pm:Steuer>
+    </nvg-tarif:Beitrag>
+    <nvg-tarif:Beitrag>
+      <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+      <pm:Betrag>
+        <allg:Betrag>156.46</allg:Betrag>
+        <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+      </pm:Betrag>
+      <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">4</pm:Zahlungsweise>
+      <pm:Steuer>
+        <allg:ArtID xsi:type="dt:ST_Steuerart">1</allg:ArtID>
+        <allg:Betrag>
+          <allg:Betrag>24.98</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </allg:Betrag>
+      </pm:Steuer>
+    </nvg-tarif:Beitrag>
+    <nvg-tarif:Beitrag>
+      <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+      <pm:Betrag>
+        <allg:Betrag>53.90</allg:Betrag>
+        <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+      </pm:Betrag>
+      <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">8</pm:Zahlungsweise>
+      <pm:Steuer>
+        <allg:ArtID xsi:type="dt:ST_Steuerart">1</allg:ArtID>
+        <allg:Betrag>
+          <allg:Betrag>8.61</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </allg:Betrag>
+      </pm:Steuer>
+    </nvg-tarif:Beitrag>
+  </basis:Erweiterung>
+  <gevo:Erstelldatum>2017-07-07T09:22:43</gevo:Erstelldatum>
+  <gevo:Vermittler>
+    <basis:Erweiterung xsi:type="nvg-allg:CT_VermittlerErweiterung">
+      <nvg-allg:Niederlassungsdaten>
+        <nvg-allg:Betreuung>999999999</nvg-allg:Betreuung>
+        <nvg-allg:Inkasso>999999999</nvg-allg:Inkasso>
+        <nvg-allg:Antragsbegleitschein>
+          <nvg-allg:ArtID xsi:type="nvg-dt:ST_BegleitscheinArt">Direktion</nvg-allg:ArtID>
+        </nvg-allg:Antragsbegleitschein>
+        <nvg-allg:Antragsbegleitschein>
+          <nvg-allg:ArtID xsi:type="nvg-dt:ST_BegleitscheinArt">Organisationsleiter</nvg-allg:ArtID>
+        </nvg-allg:Antragsbegleitschein>
+        <nvg-allg:Antragsbegleitschein>
+          <nvg-allg:ArtID xsi:type="nvg-dt:ST_BegleitscheinArt">Finanzkaufmann</nvg-allg:ArtID>
+        </nvg-allg:Antragsbegleitschein>
+      </nvg-allg:Niederlassungsdaten>
+      <nvg-allg:Vertriebsweg xsi:type="nvg-dt:ST_Vertriebsweg">Makler</nvg-allg:Vertriebsweg>
+    </basis:Erweiterung>
+    <allg:Vermittlernummer>999999999</allg:Vermittlernummer>
+    <allg:PartnerID>f485728b-2e8e-41b1-b1ab-bb7d5c83b816</allg:PartnerID>
+  </gevo:Vermittler>
+  <tarif:Zahlungsart xsi:type="dt:ST_Zahlungsart">1</tarif:Zahlungsart>
+  <tarif:Partner xsi:type="partner:CT_Person">
+    <basis:Erweiterung xsi:type="nvg-partner:CT_PersonErweiterung"></basis:Erweiterung>
+    <partner:PartnerID>VN</partner:PartnerID>
+    <partner:Anschrift>
+      <allg:Postleitzahl>91301</allg:Postleitzahl>
+      <allg:Ort>Forchheim</allg:Ort>
+    </partner:Anschrift>
+    <partner:ZusaetzlichePartnerdaten xsi:type="pm-kf:CT_PartnerdatenKfz">
+      <pm-kf:Tarifgruppe xsi:type="dt:STE_TarifgruppeBasis">N</pm-kf:Tarifgruppe>
+    </partner:ZusaetzlichePartnerdaten>
+    <partner:Partnerbeziehung>
+      <partner:PartnerID>VN</partner:PartnerID>
+      <partner:Art xsi:type="nvg-dt:STE_PartnerbeziehungErweitert">93</partner:Art>
+    </partner:Partnerbeziehung>
+    <partner:Berufstaetigkeit>
+      <basis:Erweiterung xsi:type="nvg-partner:CT_BerufstaetigkeitErweiterung">
+        <nvg-partner:Tarifgruppe xsi:type="dt:STE_TarifgruppeBasis">N</nvg-partner:Tarifgruppe>
+      </basis:Erweiterung>
+      <partner:StellungImBeruf xsi:type="dt:STE_StellungImBerufBasis">01</partner:StellungImBeruf>
+    </partner:Berufstaetigkeit>
+  </tarif:Partner>
+  <tarif:Partner xsi:type="partner:CT_JuristischePerson">
+    <basis:Erweiterung xsi:type="nvg-partner:CT_PartnerErweiterung"></basis:Erweiterung>
+    <partner:Name></partner:Name>
+    <partner:PartnerID>f485728b-2e8e-41b1-b1ab-bb7d5c83b816</partner:PartnerID>
+    <partner:Anschrift>
+      <allg:Land xsi:type="dt:ST_Laenderkennzeichen">D</allg:Land>
+    </partner:Anschrift>
+    <partner:Rechtsform xsi:type="dt:ST_Rechtsform">09</partner:Rechtsform>
+  </tarif:Partner>
+  <tarif:Partner xsi:type="partner:CT_Person">
+    <partner:PartnerID>Jüngster-Fahrer-von-DefaultFahrzeug</partner:PartnerID>
+    <partner:Anschrift></partner:Anschrift>
+    <partner:Geburtsdatum>1970-01-01</partner:Geburtsdatum>
+  </tarif:Partner>
+  <tarif:Versicherungsnehmer>
+    <partner:PartnerID>VN</partner:PartnerID>
+  </tarif:Versicherungsnehmer>
+  <tarif:Verkaufsprodukt>
+    <pm:Beitrag>
+      <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+      <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+      <pm:Betrag>
+        <allg:Betrag>590.42</allg:Betrag>
+        <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+      </pm:Betrag>
+      <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">1</pm:Zahlungsweise>
+      <pm:Steuer>
+        <allg:ArtID xsi:type="dt:ST_Steuerart">1</allg:ArtID>
+        <allg:Satz>19</allg:Satz>
+        <allg:Land xsi:type="dt:ST_Laenderkennzeichen">D</allg:Land>
+        <allg:Betrag>
+          <allg:Betrag>94.27</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </allg:Betrag>
+      </pm:Steuer>
+    </pm:Beitrag>
+    <pm:Beitrag>
+      <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+      <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+      <pm:Betrag>
+        <allg:Betrag>496.15</allg:Betrag>
+        <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+      </pm:Betrag>
+      <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">1</pm:Zahlungsweise>
+    </pm:Beitrag>
+    <pm:Beitrag>
+      <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+      <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+      <pm:Betrag>
+        <allg:Betrag>258.00</allg:Betrag>
+        <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+      </pm:Betrag>
+      <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">2</pm:Zahlungsweise>
+    </pm:Beitrag>
+    <pm:Beitrag>
+      <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+      <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+      <pm:Betrag>
+        <allg:Betrag>131.48</allg:Betrag>
+        <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+      </pm:Betrag>
+      <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">4</pm:Zahlungsweise>
+    </pm:Beitrag>
+    <pm:Beitrag>
+      <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+      <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+      <pm:Betrag>
+        <allg:Betrag>45.29</allg:Betrag>
+        <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+      </pm:Betrag>
+      <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">8</pm:Zahlungsweise>
+    </pm:Beitrag>
+    <pm:Beitrag>
+      <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+      <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+      <pm:Betrag>
+        <allg:Betrag>307.02</allg:Betrag>
+        <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+      </pm:Betrag>
+      <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">2</pm:Zahlungsweise>
+      <pm:Steuer>
+        <allg:ArtID xsi:type="dt:ST_Steuerart">1</allg:ArtID>
+        <allg:Satz>19</allg:Satz>
+        <allg:Land xsi:type="dt:ST_Laenderkennzeichen">D</allg:Land>
+        <allg:Betrag>
+          <allg:Betrag>49.02</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </allg:Betrag>
+      </pm:Steuer>
+    </pm:Beitrag>
+    <pm:Beitrag>
+      <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+      <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+      <pm:Betrag>
+        <allg:Betrag>156.46</allg:Betrag>
+        <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+      </pm:Betrag>
+      <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">4</pm:Zahlungsweise>
+      <pm:Steuer>
+        <allg:ArtID xsi:type="dt:ST_Steuerart">1</allg:ArtID>
+        <allg:Satz>19</allg:Satz>
+        <allg:Land xsi:type="dt:ST_Laenderkennzeichen">D</allg:Land>
+        <allg:Betrag>
+          <allg:Betrag>24.98</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </allg:Betrag>
+      </pm:Steuer>
+    </pm:Beitrag>
+    <pm:Beitrag>
+      <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+      <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+      <pm:Betrag>
+        <allg:Betrag>53.90</allg:Betrag>
+        <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+      </pm:Betrag>
+      <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">8</pm:Zahlungsweise>
+      <pm:Steuer>
+        <allg:ArtID xsi:type="dt:ST_Steuerart">1</allg:ArtID>
+        <allg:Satz>19</allg:Satz>
+        <allg:Land xsi:type="dt:ST_Laenderkennzeichen">D</allg:Land>
+        <allg:Betrag>
+          <allg:Betrag>8.61</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </allg:Betrag>
+      </pm:Steuer>
+    </pm:Beitrag>
+    <pm:Kennung>VP_KFZ_KENNUNG</pm:Kennung>
+    <pm:Produkt xsi:type="pm-kf:CT_KfzVersicherung">
+      <basis:Erweiterung xsi:type="nvg-pm-kf:CT_KfzVersicherungErweiterung">
+        <nvg-pm:Tarifjahr>201704</nvg-pm:Tarifjahr>
+        <nvg-pm:Zahlungsart xsi:type="dt:ST_Zahlungsart">1</nvg-pm:Zahlungsart>
+        <nvg-pm:Verbundprodukt></nvg-pm:Verbundprodukt>
+        <nvg-pm:Antragsart xsi:type="dt:ST_Antragsart">01</nvg-pm:Antragsart>
+        <nvg-pm-kf:Tarifstufe xsi:type="nvg-dt:ST_Tarifstufe">K11</nvg-pm-kf:Tarifstufe>
+      </basis:Erweiterung>
+      <pm:Bezeichnung>ProduktKH-DefaultFahrzeug</pm:Bezeichnung>
+      <pm:GewuenschteZahlungsweise xsi:type="dt:ST_Zahlungsweise">1</pm:GewuenschteZahlungsweise>
+      <pm:Unternehmen>
+        <basis:Erweiterung xsi:type="nvg-allg:CT_UnternehmenErweiterung">
+          <nvg-allg:Konzerngesellschaft xsi:type="nvg-dt:ST_Konzerngesellschaft">Garanta</nvg-allg:Konzerngesellschaft>
+        </basis:Erweiterung>
+      </pm:Unternehmen>
+      <pm:Kondition>
+        <pm:ArtID xsi:type="nvg-dt:STE_KonditionErweitert">WillkommensBonus</pm:ArtID>
+      </pm:Kondition>
+      <pm:Kondition>
+        <pm:ArtID xsi:type="nvg-dt:STE_KonditionErweitert">0</pm:ArtID>
+      </pm:Kondition>
+      <pm:Beitrag>
+        <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>277.69</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">1</pm:Zahlungsweise>
+        <pm:Steuer>
+          <allg:ArtID xsi:type="dt:ST_Steuerart">1</allg:ArtID>
+          <allg:Satz>19</allg:Satz>
+          <allg:Land xsi:type="dt:ST_Laenderkennzeichen">D</allg:Land>
+          <allg:Betrag>
+            <allg:Betrag>44.34</allg:Betrag>
+            <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+          </allg:Betrag>
+        </pm:Steuer>
+      </pm:Beitrag>
+      <pm:Beitrag>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">17</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>1036.84</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">1</pm:Zahlungsweise>
+      </pm:Beitrag>
+      <pm:Beitrag>
+        <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>233.35</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">1</pm:Zahlungsweise>
+      </pm:Beitrag>
+      <pm:Beitrag>
+        <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>121.34</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">2</pm:Zahlungsweise>
+      </pm:Beitrag>
+      <pm:Beitrag>
+        <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>61.84</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">4</pm:Zahlungsweise>
+      </pm:Beitrag>
+      <pm:Beitrag>
+        <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>21.20</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">8</pm:Zahlungsweise>
+      </pm:Beitrag>
+      <pm:Beitrag>
+        <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>144.39</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">2</pm:Zahlungsweise>
+        <pm:Steuer>
+          <allg:ArtID xsi:type="dt:ST_Steuerart">1</allg:ArtID>
+          <allg:Satz>19</allg:Satz>
+          <allg:Land xsi:type="dt:ST_Laenderkennzeichen">D</allg:Land>
+          <allg:Betrag>
+            <allg:Betrag>23.05</allg:Betrag>
+            <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+          </allg:Betrag>
+        </pm:Steuer>
+      </pm:Beitrag>
+      <pm:Beitrag>
+        <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>73.59</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">4</pm:Zahlungsweise>
+        <pm:Steuer>
+          <allg:ArtID xsi:type="dt:ST_Steuerart">1</allg:ArtID>
+          <allg:Satz>19</allg:Satz>
+          <allg:Land xsi:type="dt:ST_Laenderkennzeichen">D</allg:Land>
+          <allg:Betrag>
+            <allg:Betrag>11.75</allg:Betrag>
+            <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+          </allg:Betrag>
+        </pm:Steuer>
+      </pm:Beitrag>
+      <pm:Beitrag>
+        <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>25.23</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">8</pm:Zahlungsweise>
+        <pm:Steuer>
+          <allg:ArtID xsi:type="dt:ST_Steuerart">1</allg:ArtID>
+          <allg:Satz>19</allg:Satz>
+          <allg:Land xsi:type="dt:ST_Laenderkennzeichen">D</allg:Land>
+          <allg:Betrag>
+            <allg:Betrag>4.03</allg:Betrag>
+            <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+          </allg:Betrag>
+        </pm:Steuer>
+      </pm:Beitrag>
+      <pm:Aenderungsdatum>2017-07-07</pm:Aenderungsdatum>
+      <pm:Versicherungsdauer>
+        <allg:Beginn>2017-07-07T00:00</allg:Beginn>
+        <allg:Ende>2018-07-06T00:00</allg:Ende>
+      </pm:Versicherungsdauer>
+      <pm:Sparte xsi:type="dt:ST_Sparte">051</pm:Sparte>
+      <pm:Paket xsi:type="nvg-dt:STE_PaketErweitert">Kompakt</pm:Paket>
+      <pm:Elementarprodukt xsi:type="pm-kf:CT_KfzHaftpflichtVersicherung">
+        <pm-kf:KfzZusatzVersicherung>
+          <pm-kf:ArtID xsi:type="dt:STE_KfzZusatzVersicherungBasis">06</pm-kf:ArtID>
+        </pm-kf:KfzZusatzVersicherung>
+        <pm-kf:Deckungsart xsi:type="dt:STE_DeckungsartKHBasis">54</pm-kf:Deckungsart>
+        <pm-kf:SFKlasse xsi:type="dt:STE_SFKlasseKHBasis">SF15</pm-kf:SFKlasse>
+        <pm-kf:SFEinstufungsgrund xsi:type="dt:STE_SFEinstufungsgrundBasis">00</pm-kf:SFEinstufungsgrund>
+        <pm-kf:Beitragssatz>27</pm-kf:Beitragssatz>
+        <pm-kf:Typklasse>16</pm-kf:Typklasse>
+        <pm-kf:Regionalklasse>6</pm-kf:Regionalklasse>
+      </pm:Elementarprodukt>
+      <pm-kf:VersichertesFahrzeug>
+        <allg:GegenstandID>DefaultFahrzeug</allg:GegenstandID>
+      </pm-kf:VersichertesFahrzeug>
+    </pm:Produkt>
+    <pm:Produkt xsi:type="pm-kf:CT_KfzVersicherung">
+      <basis:Erweiterung xsi:type="nvg-pm-kf:CT_KfzVersicherungErweiterung">
+        <nvg-pm:Tarifjahr>201704</nvg-pm:Tarifjahr>
+        <nvg-pm:Zahlungsart xsi:type="dt:ST_Zahlungsart">1</nvg-pm:Zahlungsart>
+        <nvg-pm:Verbundprodukt></nvg-pm:Verbundprodukt>
+        <nvg-pm:Antragsart xsi:type="dt:ST_Antragsart">01</nvg-pm:Antragsart>
+        <nvg-pm-kf:Tarifstufe xsi:type="nvg-dt:ST_Tarifstufe">K1</nvg-pm-kf:Tarifstufe>
+      </basis:Erweiterung>
+      <pm:Bezeichnung>ProduktKasko-DefaultFahrzeug</pm:Bezeichnung>
+      <pm:GewuenschteZahlungsweise xsi:type="dt:ST_Zahlungsweise">1</pm:GewuenschteZahlungsweise>
+      <pm:Unternehmen>
+        <basis:Erweiterung xsi:type="nvg-allg:CT_UnternehmenErweiterung">
+          <nvg-allg:Konzerngesellschaft xsi:type="nvg-dt:ST_Konzerngesellschaft">Garanta</nvg-allg:Konzerngesellschaft>
+        </basis:Erweiterung>
+      </pm:Unternehmen>
+      <pm:Kondition>
+        <pm:ArtID xsi:type="nvg-dt:STE_KonditionErweitert">WillkommensBonus</pm:ArtID>
+      </pm:Kondition>
+      <pm:Kondition>
+        <pm:ArtID xsi:type="nvg-dt:STE_KonditionErweitert">0</pm:ArtID>
+      </pm:Kondition>
+      <pm:Beitrag>
+        <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>312.73</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">1</pm:Zahlungsweise>
+        <pm:Steuer>
+          <allg:ArtID xsi:type="dt:ST_Steuerart">1</allg:ArtID>
+          <allg:Satz>19</allg:Satz>
+          <allg:Land xsi:type="dt:ST_Laenderkennzeichen">D</allg:Land>
+          <allg:Betrag>
+            <allg:Betrag>49.93</allg:Betrag>
+            <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+          </allg:Betrag>
+        </pm:Steuer>
+      </pm:Beitrag>
+      <pm:Beitrag>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">17</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>772.93</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">1</pm:Zahlungsweise>
+      </pm:Beitrag>
+      <pm:Beitrag>
+        <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>262.80</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">1</pm:Zahlungsweise>
+      </pm:Beitrag>
+      <pm:Beitrag>
+        <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>136.66</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">2</pm:Zahlungsweise>
+      </pm:Beitrag>
+      <pm:Beitrag>
+        <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>69.64</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">4</pm:Zahlungsweise>
+      </pm:Beitrag>
+      <pm:Beitrag>
+        <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>24.09</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">8</pm:Zahlungsweise>
+      </pm:Beitrag>
+      <pm:Beitrag>
+        <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>162.63</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">2</pm:Zahlungsweise>
+        <pm:Steuer>
+          <allg:ArtID xsi:type="dt:ST_Steuerart">1</allg:ArtID>
+          <allg:Satz>19</allg:Satz>
+          <allg:Land xsi:type="dt:ST_Laenderkennzeichen">D</allg:Land>
+          <allg:Betrag>
+            <allg:Betrag>25.97</allg:Betrag>
+            <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+          </allg:Betrag>
+        </pm:Steuer>
+      </pm:Beitrag>
+      <pm:Beitrag>
+        <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>82.87</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">4</pm:Zahlungsweise>
+        <pm:Steuer>
+          <allg:ArtID xsi:type="dt:ST_Steuerart">1</allg:ArtID>
+          <allg:Satz>19</allg:Satz>
+          <allg:Land xsi:type="dt:ST_Laenderkennzeichen">D</allg:Land>
+          <allg:Betrag>
+            <allg:Betrag>13.23</allg:Betrag>
+            <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+          </allg:Betrag>
+        </pm:Steuer>
+      </pm:Beitrag>
+      <pm:Beitrag>
+        <basis:Erweiterung xsi:type="nvg-pm:CT_BeitragErweiterung"></basis:Erweiterung>
+        <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+        <pm:Betrag>
+          <allg:Betrag>28.67</allg:Betrag>
+          <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+        </pm:Betrag>
+        <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">8</pm:Zahlungsweise>
+        <pm:Steuer>
+          <allg:ArtID xsi:type="dt:ST_Steuerart">1</allg:ArtID>
+          <allg:Satz>19</allg:Satz>
+          <allg:Land xsi:type="dt:ST_Laenderkennzeichen">D</allg:Land>
+          <allg:Betrag>
+            <allg:Betrag>4.58</allg:Betrag>
+            <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+          </allg:Betrag>
+        </pm:Steuer>
+      </pm:Beitrag>
+      <pm:Aenderungsdatum>2017-07-07</pm:Aenderungsdatum>
+      <pm:Versicherungsdauer>
+        <allg:Beginn>2017-07-07T00:00</allg:Beginn>
+        <allg:Ende>2018-07-06T00:00</allg:Ende>
+      </pm:Versicherungsdauer>
+      <pm:Sparte xsi:type="dt:ST_Sparte">052</pm:Sparte>
+      <pm:Paket xsi:type="nvg-dt:STE_PaketErweitert">Kompakt</pm:Paket>
+      <pm:Elementarprodukt xsi:type="pm-kf:CT_Fahrzeugvollversicherung">
+        <pm-kf:KfzZusatzVersicherung>
+          <pm-kf:ArtID xsi:type="dt:STE_KfzZusatzVersicherungBasis">06</pm-kf:ArtID>
+        </pm-kf:KfzZusatzVersicherung>
+        <pm-kf:KfzZusatzVersicherung>
+          <pm:Beitrag>
+            <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+            <pm:Betrag>
+              <allg:Betrag>12.00</allg:Betrag>
+              <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+            </pm:Betrag>
+            <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">1</pm:Zahlungsweise>
+          </pm:Beitrag>
+          <pm:Beitrag>
+            <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+            <pm:Betrag>
+              <allg:Betrag>10.08</allg:Betrag>
+              <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+            </pm:Betrag>
+            <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">1</pm:Zahlungsweise>
+          </pm:Beitrag>
+          <pm:Beitrag>
+            <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+            <pm:Betrag>
+              <allg:Betrag>6.24</allg:Betrag>
+              <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+            </pm:Betrag>
+            <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">2</pm:Zahlungsweise>
+          </pm:Beitrag>
+          <pm:Beitrag>
+            <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+            <pm:Betrag>
+              <allg:Betrag>5.24</allg:Betrag>
+              <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+            </pm:Betrag>
+            <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">2</pm:Zahlungsweise>
+          </pm:Beitrag>
+          <pm:Beitrag>
+            <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+            <pm:Betrag>
+              <allg:Betrag>3.18</allg:Betrag>
+              <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+            </pm:Betrag>
+            <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">4</pm:Zahlungsweise>
+          </pm:Beitrag>
+          <pm:Beitrag>
+            <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+            <pm:Betrag>
+              <allg:Betrag>2.67</allg:Betrag>
+              <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+            </pm:Betrag>
+            <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">4</pm:Zahlungsweise>
+          </pm:Beitrag>
+          <pm:Beitrag>
+            <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+            <pm:Betrag>
+              <allg:Betrag>1.09</allg:Betrag>
+              <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+            </pm:Betrag>
+            <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">8</pm:Zahlungsweise>
+          </pm:Beitrag>
+          <pm:Beitrag>
+            <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+            <pm:Betrag>
+              <allg:Betrag>0.92</allg:Betrag>
+              <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+            </pm:Betrag>
+            <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">8</pm:Zahlungsweise>
+          </pm:Beitrag>
+          <pm-kf:ArtID xsi:type="dt:STE_KfzZusatzVersicherungBasis">01</pm-kf:ArtID>
+        </pm-kf:KfzZusatzVersicherung>
+        <pm-kf:KfzZusatzVersicherung>
+          <pm:Beitrag>
+            <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+            <pm:Betrag>
+              <allg:Betrag>39.09</allg:Betrag>
+              <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+            </pm:Betrag>
+            <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">1</pm:Zahlungsweise>
+          </pm:Beitrag>
+          <pm:Beitrag>
+            <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+            <pm:Betrag>
+              <allg:Betrag>32.85</allg:Betrag>
+              <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+            </pm:Betrag>
+            <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">1</pm:Zahlungsweise>
+          </pm:Beitrag>
+          <pm:Beitrag>
+            <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+            <pm:Betrag>
+              <allg:Betrag>20.33</allg:Betrag>
+              <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+            </pm:Betrag>
+            <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">2</pm:Zahlungsweise>
+          </pm:Beitrag>
+          <pm:Beitrag>
+            <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+            <pm:Betrag>
+              <allg:Betrag>17.08</allg:Betrag>
+              <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+            </pm:Betrag>
+            <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">2</pm:Zahlungsweise>
+          </pm:Beitrag>
+          <pm:Beitrag>
+            <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+            <pm:Betrag>
+              <allg:Betrag>10.36</allg:Betrag>
+              <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+            </pm:Betrag>
+            <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">4</pm:Zahlungsweise>
+          </pm:Beitrag>
+          <pm:Beitrag>
+            <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+            <pm:Betrag>
+              <allg:Betrag>8.71</allg:Betrag>
+              <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+            </pm:Betrag>
+            <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">4</pm:Zahlungsweise>
+          </pm:Beitrag>
+          <pm:Beitrag>
+            <pm:ArtID xsi:type="dt:STE_BeitragBasis">01</pm:ArtID>
+            <pm:Betrag>
+              <allg:Betrag>3.58</allg:Betrag>
+              <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+            </pm:Betrag>
+            <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">8</pm:Zahlungsweise>
+          </pm:Beitrag>
+          <pm:Beitrag>
+            <pm:ArtID xsi:type="dt:STE_BeitragBasis">02</pm:ArtID>
+            <pm:Betrag>
+              <allg:Betrag>3.01</allg:Betrag>
+              <allg:Waehrung xsi:type="dt:ST_Waehrungsschluessel">EUR</allg:Waehrung>
+            </pm:Betrag>
+            <pm:Zahlungsweise xsi:type="dt:ST_Zahlungsweise">8</pm:Zahlungsweise>
+          </pm:Beitrag>
+          <pm-kf:ArtID xsi:type="nvg-dt:STE_KfzZusatzVersicherungErweitert">FreieWerkstattwahl</pm-kf:ArtID>
+        </pm-kf:KfzZusatzVersicherung>
+        <pm-kf:SelbstbeteiligungKFV xsi:type="dt:STE_SelbstbeteiligungKfzBasis">300</pm-kf:SelbstbeteiligungKFV>
+        <pm-kf:SelbstbeteiligungKFT xsi:type="dt:STE_SelbstbeteiligungKfzBasis">150</pm-kf:SelbstbeteiligungKFT>
+        <pm-kf:SFKlasse xsi:type="dt:STE_SFKlasseKFVBasis">SF15</pm-kf:SFKlasse>
+        <pm-kf:SFEinstufungsgrund xsi:type="dt:STE_SFEinstufungsgrundBasis">00</pm-kf:SFEinstufungsgrund>
+        <pm-kf:Beitragssatz>34</pm-kf:Beitragssatz>
+        <pm-kf:Typklasse>16</pm-kf:Typklasse>
+        <pm-kf:Regionalklasse>2</pm-kf:Regionalklasse>
+      </pm:Elementarprodukt>
+      <pm-kf:VersichertesFahrzeug>
+        <allg:GegenstandID>DefaultFahrzeug</allg:GegenstandID>
+      </pm-kf:VersichertesFahrzeug>
+    </pm:Produkt>
+  </tarif:Verkaufsprodukt>
+  <tarif:Gegenstand xsi:type="fz:CT_PKW">
+    <basis:Erweiterung xsi:type="nvg-fz:CT_FahrzeugErweiterung">
+      <nvg-fz:Altersklasse>4</nvg-fz:Altersklasse>
+      <nvg-fz:TypklasseKT>10</nvg-fz:TypklasseKT>
+      <nvg-fz:TypklasseKV>16</nvg-fz:TypklasseKV>
+      <nvg-fz:RegionalklasseKT>2</nvg-fz:RegionalklasseKT>
+      <nvg-fz:RegionalklasseKV>2</nvg-fz:RegionalklasseKV>
+      <nvg-fz:ZuschlagspflichtigeTeile>false</nvg-fz:ZuschlagspflichtigeTeile>
+    </basis:Erweiterung>
+    <allg:GegenstandID>DefaultFahrzeug</allg:GegenstandID>
+    <fz:Eigentumsverhaeltnis xsi:type="dt:ST_Eigentumsverhaeltnis">1</fz:Eigentumsverhaeltnis>
+    <fz:Erstzulassung>2010-01-01</fz:Erstzulassung>
+    <fz:Herstellername>RENAULT</fz:Herstellername>
+    <fz:Herstellerschluessel>3004</fz:Herstellerschluessel>
+    <fz:Hubraum>1870</fz:Hubraum>
+    <fz:Modellname>57 (CLIO D)</fz:Modellname>
+    <fz:MotorLeistung>40</fz:MotorLeistung>
+    <fz:Typschluessel>795</fz:Typschluessel>
+    <fz:Wagniskennziffer>112</fz:Wagniskennziffer>
+    <fz:Fahrzeugart xsi:type="dt:ST_Fahrzeugart">2</fz:Fahrzeugart>
+    <fz:Kennzeichen>
+      <basis:Erweiterung xsi:type="nvg-fz:CT_KennzeichenErweiterung"></basis:Erweiterung>
+      <fz:Kennzeichenart>
+        <fz:MerkmalKennzeichenart xsi:type="dt:ST_Kennzeichenart">Z</fz:MerkmalKennzeichenart>
+      </fz:Kennzeichenart>
+    </fz:Kennzeichen>
+    <fz:VersicherungsbestaetigungKfz>
+      <fz:HalterAbweichendVonVersicherungsnehmer>false</fz:HalterAbweichendVonVersicherungsnehmer>
+    </fz:VersicherungsbestaetigungKfz>
+    <fz:Halter>
+      <partner:PartnerID>VN</partner:PartnerID>
+    </fz:Halter>
+    <fz:Fahrer>
+      <partner:PartnerID>Jüngster-Fahrer-von-DefaultFahrzeug</partner:PartnerID>
+    </fz:Fahrer>
+    <fz:Staerkeeinheit xsi:type="dt:ST_Werteinheit">70</fz:Staerkeeinheit>
+    <fz:ErsteZulassungAufDenVNOderHalter>2015-01-01</fz:ErsteZulassungAufDenVNOderHalter>
+    <fz:PKWNutzung>
+      <basis:Erweiterung xsi:type="nvg-fz:CT_FahrzeugnutzungErweitertErweiterung">
+        <nvg-fz:Fahrzeugverwendung xsi:type="nvg-dt:ST_Fahrzeugverwendung">OHV</nvg-fz:Fahrzeugverwendung>
+        <nvg-fz:JahresfahrleistungKlasse>4</nvg-fz:JahresfahrleistungKlasse>
+      </basis:Erweiterung>
+      <fz:Jahresfahrleistung>15000</fz:Jahresfahrleistung>
+      <fz:Nutzerkreis xsi:type="dt:ST_Nutzerkreis">Versicherungsnehmer</fz:Nutzerkreis>
+      <fz:AlterJuengsterMaennlicherNutzer>47</fz:AlterJuengsterMaennlicherNutzer>
+      <fz:AlterJuengsterWeiblicherNutzer>47</fz:AlterJuengsterWeiblicherNutzer>
+      <fz:AlterJuengsterNutzerUnbekannt>false</fz:AlterJuengsterNutzerUnbekannt>
+      <fz:AlterAeltesterNutzer>47</fz:AlterAeltesterNutzer>
+      <fz:AlterAeltesterNutzerUnbekannt>false</fz:AlterAeltesterNutzerUnbekannt>
+      <fz:AlterJuengsterNutzer>47</fz:AlterJuengsterNutzer>
+      <fz:BegleitetesFahrenNutzer>false</fz:BegleitetesFahrenNutzer>
+    </fz:PKWNutzung>
+  </tarif:Gegenstand>
+  <tarif:Antragsdatum>2017-07-07</tarif:Antragsdatum>
+</tarif:Antrag>

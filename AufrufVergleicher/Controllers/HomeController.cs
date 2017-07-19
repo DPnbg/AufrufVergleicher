@@ -42,49 +42,58 @@ namespace AufrufVergleicher.Controllers
             else
             {
                 var stream = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream(fname);
-                //PDF auspacken
-                byte[] BT4allFile = null;
-                iTextSharp.text.pdf.PdfReader reader;
-                try
-                {
-                    reader = new iTextSharp.text.pdf.PdfReader(stream);
-                    iTextSharp.text.pdf.PdfDictionary root = reader.Catalog;
-                    iTextSharp.text.pdf.PdfDictionary names = root.GetAsDict(iTextSharp.text.pdf.PdfName.NAMES);
-                    if (names != null)
-                    {
-                        iTextSharp.text.pdf.PdfDictionary embeddedFiles = names.GetAsDict(iTextSharp.text.pdf.PdfName.EMBEDDEDFILES);
-                        if (embeddedFiles != null)
-                        {
+				byte[] BT4allFile = null;
+				if (fname.EndsWith(".xml", StringComparison.CurrentCultureIgnoreCase)) {
+					var biproString = new System.IO.StreamReader(stream).ReadToEnd();
+					using (var mem = new System.IO.MemoryStream()) {
+						var writer = new Newtonsoft.Json.JsonTextWriter(
+							new System.IO.StreamWriter(mem));
+						writer.WriteStartObject();
+						writer.WritePropertyName("module");
+						writer.WriteValue("YA");
+						writer.WritePropertyName("data");
+						writer.WriteValue(biproString);
+						writer.WriteEndObject();
+						writer.Flush();
+						BT4allFile = mem.GetBuffer().Take((int)mem.Length).ToArray();
+					}
+				} else
+				//PDF auspacken
+				{
 
-                            var en = embeddedFiles.Keys.GetEnumerator();
-                            while (en.MoveNext())
-                            {
-                                var obj = embeddedFiles.GetAsArray(en.Current as iTextSharp.text.pdf.PdfName);
+					iTextSharp.text.pdf.PdfReader reader;
+					try {
+						reader = new iTextSharp.text.pdf.PdfReader(stream);
+						iTextSharp.text.pdf.PdfDictionary root = reader.Catalog;
+						iTextSharp.text.pdf.PdfDictionary names = root.GetAsDict(iTextSharp.text.pdf.PdfName.NAMES);
+						if (names != null) {
+							iTextSharp.text.pdf.PdfDictionary embeddedFiles = names.GetAsDict(iTextSharp.text.pdf.PdfName.EMBEDDEDFILES);
+							if (embeddedFiles != null) {
 
-                                iTextSharp.text.pdf.PdfDictionary fileSpec = obj.GetAsDict(1);
+								var en = embeddedFiles.Keys.GetEnumerator();
+								while (en.MoveNext()) {
+									var obj = embeddedFiles.GetAsArray(en.Current as iTextSharp.text.pdf.PdfName);
 
-                                iTextSharp.text.pdf.PdfDictionary file = fileSpec.GetAsDict(iTextSharp.text.pdf.PdfName.EF);
+									iTextSharp.text.pdf.PdfDictionary fileSpec = obj.GetAsDict(1);
 
-                                foreach (iTextSharp.text.pdf.PdfName key in file.Keys)
-                                {
-                                    iTextSharp.text.pdf.PRStream innerstream = (iTextSharp.text.pdf.PRStream)
-                                        iTextSharp.text.pdf.PdfReader.GetPdfObject(file.GetAsIndirectObject(key));
+									iTextSharp.text.pdf.PdfDictionary file = fileSpec.GetAsDict(iTextSharp.text.pdf.PdfName.EF);
 
-                                    if (innerstream != null)
-                                    {
-                                        BT4allFile = iTextSharp.text.pdf.PdfReader.GetStreamBytes(innerstream);
-                                        break;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-                catch (Exception ex)
-                {
-                    err = ex.ToString();
-                }
+									foreach (iTextSharp.text.pdf.PdfName key in file.Keys) {
+										iTextSharp.text.pdf.PRStream innerstream = (iTextSharp.text.pdf.PRStream)
+											iTextSharp.text.pdf.PdfReader.GetPdfObject(file.GetAsIndirectObject(key));
 
+										if (innerstream != null) {
+											BT4allFile = iTextSharp.text.pdf.PdfReader.GetStreamBytes(innerstream);
+											break;
+										}
+									}
+								}
+							}
+						}
+					} catch (Exception ex) {
+						err = ex.ToString();
+					}
+				}
                 //Request mit Post des Falls und Response mit der ID
                 if (BT4allFile != null)
                 {
