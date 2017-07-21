@@ -28,7 +28,7 @@ namespace AufrufVergleicher.Controllers
         }
 
 
-        public ActionResult OpenNBG(string fname)
+        public ActionResult OpenNBG(string fname,bool antrag)
         {
             string err = null;
             string rawHtml = null;
@@ -158,6 +158,7 @@ namespace AufrufVergleicher.Controllers
             ViewBag.err = err;
             ViewBag.rawHtml = rawHtml;
             ViewBag.StartID = StartID;
+			ViewBag.antrag = antrag;
             return View();
         }
 
