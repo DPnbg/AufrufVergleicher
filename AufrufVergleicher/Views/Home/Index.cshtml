@@ -15,31 +15,31 @@
 		<div class="row">
 			<div class="col-xs-3">
 				<div class="row">
-					<div class="col-xs-12">@Html.ActionLink("PDF #1 in BT4all", "OpenNBG", "Home", new { @fname = "AufrufVergleicher.PDF1.pdf",@antrag="true" }, new { @class = "btn btn-default" })</div>
+					<div class="col-xs-12">@Html.ActionLink("PDF #1 in BT4all (Angebot ohne Unterschrift und ohne Zusatzdaten)", "OpenNBG", "Home", new { @fname = "AufrufVergleicher.PDF1.pdf",@antrag="false",@sign="false", @do_xtraData = "false" }, new { @class = "btn btn-default" })</div>
 					<div class="col-xs-12"><a href="/sv/l.svc/d/AufrufVergleicher.PDF1.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:20px;margin-right:5px"></i>PDF anzeigen</a></div>
 				</div>
 			</div>
 			<div class="col-xs-3">
 				<div class="row">
-					<div class="col-xs-12">@Html.ActionLink("PDF #2 in BT4all", "OpenNBG", "Home", new { @fname = "AufrufVergleicher.PDF2.pdf", @antrag = "true" }, new { @class = "btn btn-default" })</div>
+					<div class="col-xs-12">@Html.ActionLink("PDF #2 in BT4all (Angebot ohne Unterschrift und ohne Zusatzdaten)", "OpenNBG", "Home", new { @fname = "AufrufVergleicher.PDF2.pdf", @antrag = "false", @sign = "false", @do_xtraData = "false" }, new { @class = "btn btn-default" })</div>
 					<div class="col-xs-12"><a href="/sv/l.svc/d/AufrufVergleicher.PDF2.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:20px;margin-right:5px"></i>PDF anzeigen</a></div>
 				</div>
 			</div>
 			<div class="col-xs-3">
 				<div class="row">
-					<div class="col-xs-12">@Html.ActionLink("PDF #3 in BT4all", "OpenNBG", "Home", new { @fname = "AufrufVergleicher.PDF3.pdf", @antrag = "true" }, new { @class = "btn btn-default" })</div>
+					<div class="col-xs-12">@Html.ActionLink("PDF #3 in BT4all (Antrag mit Unterschrift und mit Zusatzdaten)", "OpenNBG", "Home", new { @fname = "AufrufVergleicher.PDF3.pdf", @antrag = "true", @sign = "true", @do_xtraData = "true" }, new { @class = "btn btn-default" })</div>
 					<div class="col-xs-12"><a href="/sv/l.svc/d/AufrufVergleicher.PDF3.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:20px;margin-right:5px"></i>PDF anzeigen</a></div>
 				</div>
 			</div>
 			<div class="col-xs-3">
 				<div class="row">
-					<div class="col-xs-12">@Html.ActionLink("PDF #4 Privatrente", "OpenNBG", "Home", new { @fname = "AufrufVergleicher.PDF4.pdf", @antrag = "true" }, new { @class = "btn btn-default" })</div>
+					<div class="col-xs-12">@Html.ActionLink("PDF #4 Privatrente (Antrag mit Unterschrift und mit Zusatzdaten)", "OpenNBG", "Home", new { @fname = "AufrufVergleicher.PDF4.pdf", @antrag = "true", @sign = "true", @do_xtraData = "true" }, new { @class = "btn btn-default" })</div>
 					<div class="col-xs-12"><a href="/sv/l.svc/d/AufrufVergleicher.PDF4.pdf" target="_blank"><i class="fa fa-file-pdf-o" style="font-size:20px;margin-right:5px"></i>PDF anzeigen</a></div>
 				</div>
 			</div>
 			<div class="col-xs-3">
 				<div class="row">
-					<div class="col-xs-12">@Html.ActionLink("Bipro KFZ", "OpenNBG", "Home", new { @fname = "AufrufVergleicher.biproKFZ.xml", @antrag = "false" }, new { @class = "btn btn-default" })</div>
+					<div class="col-xs-12">@Html.ActionLink("Bipro KFZ (Angebot mit Unterschrift und ohne Zusatzdaten)", "OpenNBG", "Home", new { @fname = "AufrufVergleicher.biproKFZ.xml", @antrag = "false", @sign = "true", @do_xtraData = "false" }, new { @class = "btn btn-default" })</div>
 					<div class="col-xs-12"><a href="/sv/l.svc/d/AufrufVergleicher.biproKFZ.xml" target="_blank"><i class="fa fa-file-code-o" style="font-size:20px;margin-right:5px"></i>Bipro XML anzeigen</a></div>
 				</div>
 			</div>

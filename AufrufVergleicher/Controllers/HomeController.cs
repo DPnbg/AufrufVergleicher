@@ -28,7 +28,7 @@ namespace AufrufVergleicher.Controllers
         }
 
 
-        public ActionResult OpenNBG(string fname,bool antrag)
+        public ActionResult OpenNBG(string fname,bool antrag,bool sign, bool do_xtraData)
         {
             string err = null;
             string rawHtml = null;
@@ -102,9 +102,18 @@ namespace AufrufVergleicher.Controllers
                         var Req = System.Net.WebRequest.Create("https://test.nuernberger-bt4all.de/BT4All/SV/d.svc/m?i=getStartID_SLS_NoSign");
                         Req.Method = "POST";
 
-                        var xtraData = new byte[100];
-                        for (int x = 0; x < xtraData.Length; x++)
-                            xtraData[x] = 1;
+                        var xtraData = new byte[0];
+						if (do_xtraData) {
+							var xstream = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream(
+								"AufrufVergleicher.170728_NuernbergerVorschlag.xml");
+							var bList = new List<byte>();
+							int b = xstream.ReadByte();
+							while (b != -1) {
+								bList.Add((byte)b);
+								b = xstream.ReadByte();
+							}
+						}
+
 
                         Req.ContentLength = BT4allFile.Length + xtraData.Length;
                         if (xtraData.Length > 0)
@@ -159,7 +168,8 @@ namespace AufrufVergleicher.Controllers
             ViewBag.rawHtml = rawHtml;
             ViewBag.StartID = StartID;
 			ViewBag.antrag = antrag;
-            return View();
+			ViewBag.sign = sign;
+			return View();
         }
 
 

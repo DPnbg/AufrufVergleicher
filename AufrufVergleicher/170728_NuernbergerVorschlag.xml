@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<case>
+	<control>
+		<case_id>1010893</case_id>
+		<risk_types>AD1</risk_types>
+		<risk_types>BUZ-BV</risk_types>
+		<risk_types>LEBEN</risk_types>
+	</control>
+	<agent>
+		<name>dasBinJaIch</name>
+		<agent_id>123456789</agent_id>
+	</agent>
+	<input>
+		<gender>1</gender>
+		<birthday>11.11.1992</birthday>
+		<age>24</age>
+		<height>186</height>
+		<weight>100</weight>
+		<bmi>29</bmi>
+		<smoker_status>1</smoker_status>
+		<max_physical_work>0</max_physical_work>
+		<brutto_income>50000</brutto_income>
+		<employment_type>0</employment_type>
+		<staff_responsibility>0</staff_responsibility>
+		<professional_training>AbgeschlAusbildung</professional_training>
+		<business_travel>0</business_travel>
+		<employment_mode>1</employment_mode>
+		<designation>Industriekaufmann</designation>
+		<requested_yearly_pension_amount_ipown>12000</requested_yearly_pension_amount_ipown>
+		<requested_life_amount>0</requested_life_amount>
+		<ip_included>ja</ip_included>
+	</input>
+	<questions>
+		<question>
+			<id>besondere_Gefahren_Beruf_base_besondere_Gefahren_Beruf_base</id>
+			<label>1. Sind Sie Gefahren im Beruf (z.B. Flugrisiko, Chemikalien, radioaktive Stoffe/Strahlen, Aufenthalt in Krisengebieten) ausgesetzt?</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+			<id>Besondere_Gefahren_Hobby1_base_Besondere_Gefahren_Hobby1_base</id>
+			<label>2. Sind Sie Gefahren bei Sport oder Hobby (z.B. Flugrisiko\/Drachenfliegen\/Fallschirmspringen, Rennfahrten, Bergsteigen, Tauchen, Extremsportarten, Kampfsportarten oder Teilnahme an organisierten sportlichen Wettbewerben, Reiten, Fahren eines motorisierten Zweirades mit mehr als 50ccm, Quad oder Trike) ausgesetzt?</label>
+			<answer>ja</answer>
+			<subquestions>
+				<question>
+					<label>Bitte wählen Sie Ihr Hobby\/Ihren Sport aus</label>
+					<answer>Fallschirmspringen</answer>
+				</question>
+				<question>
+					<label>Sind Sie Wingsuit-Springer?</label>
+					<answer>nein</answer>
+				</question>
+				<question>
+					<label>Absolvieren Sie Sprünge mit oder ohne Öffnungsautomaten?</label>
+					<answer>Mit Öffnungsautomaten</answer>
+				</question>
+				<question>
+					<label>Sind Sie nebenberuflich als Fluglehrer tätig?</label>
+					<answer>nein</answer>
+				</question>
+				<question>
+					<label>Führen Sie auch Synchron- oder Formationssprünge aus?</label>
+					<answer>nein</answer>
+				</question>
+				<question>
+					<label>Bitte wählen Sie Ihr Hobby\/Ihren Sport aus</label>
+					<answer>Motorradsport</answer>
+				</question>
+				<question>
+					<label>Handelt es sich dabei ausschließlich um Privatfahrten auf Rennstrecken ohne Wettbewerbe mit Fahrzeugen, die für den öffentlichen Straßenverkehr zugelassen sind?</label>
+					<answer>nein</answer>
+				</question>
+				<question>
+					<label>Beteiligen Sie sich an Rundstreckenrennen auf Straßen, Dragster\\\/Beschleunigungsrennen oder an Quad-Racing?</label>
+					<answer>nein</answer>
+				</question>
+				<question>
+					<label>Welchen Motorradsport üben Sie aus?</label>
+					<answer>Sonstiges bzw. mehr als eines der Genannten</answer>
+				</question>
+			</subquestions>
+		</question>
+		<question>
+			<id>Ausland_base_Ausland_base</id>
+			<label>3. Beabsichtigen Sie, innerhalb der nächsten 12 Monate in Krisengebiete oder länger als 3 Monate in ein Land außerhalb der Europäischen Union zu reisen?</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+			<id>Vorversicherung_base_Vorversicherung_base</id>
+			<label>1. Haben Sie bereits eine Lebens- , oder Invaliditätsversicherung (gegen Todesfall, Berufs-, Dienst- oder Erwerbsunfähigkeit, Grundfähigkeit, Pflegebedürftigkeit, Unfallinvalidität), ggf. auch im Rahmen einer betrieblichen Altersversorgung oder ist eine solche beantragt?</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+			<id>Frueherer_Antrag_base_Frueherer_Antrag_base</id>
+			<label>2. Wurden in den letzten 5 Jahren bereits Versicherungsanträge (Todesfall, Berufs-, Dienst- oder Erwerbsunfähigkeit, Grundfähigkeit, Pflegebedürftigkeit, Unfallinvalidität) bei anderen Gesellschaften zu erschwerten Bedingungen angeboten, angenommen, zurückgestellt oder abgelehnt?</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+			<id>Alkohol_base_Alkohol_base</id>
+			<label>1. Wurden Sie in den letzten 10 Jahren oder werden Sie wegen der Folgen des Konsums von Alkohol, Betäubungsmitteln oder Drogen beraten oder behandelt?</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+			<id>Drogen_base_Drogen_base</id>
+			<label>2. Nehmen oder nahmen Sie in den letzten 10 Jahren Drogen und\/oder Betäubungsmittel ein?</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+			<id>Psyche_base_Psyche_base</id>
+			<label>3. Bestanden in den letzten 5 Jahren oder bestehen bei Ihnen Krankheiten, Störungen oder Beschwerden der Psyche? z.B. Depression, psychosomatische oder somatoforme Störung, Persönlichkeitsstörung, Essstörung, Neurosen, Burn-out-Syndrom, Erschöpfungszustände, Aufmerksamkeitsdefizit-Syndrom (ADS, ADHS)</label>
+			<answer>ja</answer>
+			<subquestions>
+				<question>
+					<label>Bitte geben Sie die Diagnose an</label>
+					<answer>Depression</answer>
+				</question>
+				<question>
+					<label>Trifft oder traf mindestens einer der folgenden Punkte auf Sie zu: mehrmaliger Krankenhausaufenthalt, länger als 2 Wochen arbeitsunfähig, mehr als 2 Medikamente?</label>
+					<answer>nein</answer>
+				</question>
+				<question>
+					<label>Sind die Beschwerden einmalig oder mehrmalig aufgetreten?</label>
+					<answer>Einmalig</answer>
+				</question>
+				<question>
+					<label>Trat dies infolge eines belastenden Ereignisses (z.B. Verlust eines Angehörigen, Scheidung, Mobbing am Arbeitsplatz) auf?</label>
+					<answer>ja</answer>
+				</question>
+				<question>
+					<label>Sind Sie jetzt vollständig beschwerdefrei?</label>
+					<answer>nein</answer>
+				</question>
+				<question>
+					<label>Nehmen Sie deswegen dauerhaft ein Medikament ein?</label>
+					<answer>nein</answer>
+				</question>
+				<question>
+					<label>Wie lange waren Sie deswegen insgesamt krank geschrieben?</label>
+					<answer>Bis zu 1 Woche</answer>
+				</question>
+			</subquestions>
+		</question>
+		<question>
+			<id>Suizid_base_Suizid_base</id>
+			<label>4. Haben Sie in den letzten 5 Jahren einen Selbsttötungsversuch unternommen?</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+			<id>HIV_base_HIV_base</id>
+			<label>5. Wurde bei Ihnen eine HIV-Infektion festgestellt?</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Wirbelsaeule_base_Wirbelsaeule_base</id>
+			<label>a. der Wirbelsäule, des Rückens, des Nackens? z.B. Skoliose (Verkrümmung), Hexenschuss, Lumbalgie, Bandscheibenvorfall, Morbus Bechterew</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Knochen_base_Knochen_base</id>
+			<label>b. der Knie-, Hüft-, Schulter-, Sprung- oder sonstiger Gelenke inkl. Sehnen oder Knochen oder Muskulatur? z.B. Fehlstellungen, Arthrose (Gelenkabnutzung), Bandverletzungen, Arthritis (Entzündung), Fibromyalgie, Sehnenscheiden- oder Schleimbeutelentzündungen, Rheuma, Meniskusverletzung</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Herz_base_Herz_base</id>
+			<label>c. des Herzens, des Kreislaufs oder der Gefäße? z.B. Bluthochdruck, Herzmuskelverdickung, Herzinfarkt, Herzfehler, Durchblutungsstörungen, Thrombose</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Gehirn_Nerven_base_Gehirn_Nerven_base</id>
+			<label>d. des Nervensystems, des Gehirns oder des Rückenmarks? z.B. Schlaganfall, Epilepsie (Krampfanfälle), Multiple Sklerose, Kopfschmerzen, Migräne, Schwindel, Nervenentzündung, chronische Schmerzen, Seh-, Sprach- oder Gefühlsstörungen</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Tumor_Blut_base_Tumor_Blut_base</id>
+			<label>e. des Blutes, der blutbildenden Organe oder im Rahmen von Tumorerkrankungen? z.B. Anämie (Blutarmut), Gerinnungsstörung, Leukämie (Blutkrebs), Darmkrebs, Hautkrebs, geschlechtsspezifische Tumoren (Brust, Gebärmutter, Eierstöcke, Prostata), Hirntumor, Zysten, Polypen, Lymphknotenschwellung, Geschwülste</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Infektionen_base_Infektionen_base</id>
+			<label>f. im Rahmen von Infektions- oder Autoimmunerkrankungen? z.B. Rheuma, Lupus erythematodes, Sklerodermie (Bindegewebsverhärtung), Tuberkulose, Borreliose</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Lunge_base_Lunge_base</id>
+			<label>g. der Atemwege? z.B. Asthma, chronische oder obstruktive Bronchitis, Schlafapnoe, Emphysem</label>
+			<answer>ja</answer>
+			<subquestions>
+				<question>
+					<label>Bitte geben Sie die Diagnose an</label>
+					<answer>Asthma</answer>
+				</question>
+				<question>
+					<label>Wann zuletzt hatten Sie Beschwerden bzw. waren aufgrund dieser Beschwerden in Behandlung oder mussten Medikamente einnehmen?</label>
+					<answer>Vor weniger als 10 Jahren</answer>
+				</question>
+				<question>
+					<label>Müssen oder mussten Sie in den letzten 12 Monaten Kortison in Tablettenform einnehmen?</label>
+					<answer>nein</answer>
+				</question>
+				<question>
+					<label>Wie häufig bzw. wie lange waren Sie in den letzten 12 Monaten aufgrund dieser Erkrankung arbeitsunfähig oder konnten Ihren täglichen Aktivitäten nicht nachgehen?</label>
+					<answer>Nie</answer>
+				</question>
+				<question>
+					<label>In den letzten 12 Monaten, wie häufig hatten Sie nachts Beschwerden?</label>
+					<answer>Bis zu 2 mal in der Woche</answer>
+				</question>
+			</subquestions>			
+		</question>
+		<question>
+            <id>Haut_Allergie_base_Haut_Allergie_base</id>
+			<label>h. der Haut oder Allergien? z.B. auffällige Muttermale, Schuppenflechte, Neurodermitis, Ekzem, Urtikaria (Nesselsucht, Quincke-Ödem), Heuschnupfen</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Magen_Darm_base_Magen_Darm_base</id>
+			<label>i. der Verdauungsorgane (Leber, Gallenblase\/-wege, Bauchspeicheldrüse, Speiseröhre, Magen, Darm)? z.B. erhöhte Leberwerte, Hepatitis, Gastritis, chronische Darmerkrankung (Colitis Ulcerosa, Morbus Crohn), Refluxkrankheit</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Harn_base_Harn_base</id>
+			<label>j. der Harn- und Geschlechtsorgane (z.B. Nieren, Blase, Gebärmutter, Eierstöcke, Brust, Prostata)? z.B. eingeschränkte Nierenfunktion, Zystennieren, Steinleiden, Auffälligkeiten im Urin (Blut, Eiweiß), auffälliger PAP-Abstrich, Knoten in der Brust, erhöhter PSA-Wert</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Stoffwechsel_base_Stoffwechsel_base</id>
+			<label>k. des Stoffwechsels oder des Hormonhaushalts? z.B. Diabetes mellitus (Zuckerkrankheit), Gicht, Funktionsstörung der Schilddrüse, erhöhte Blutfettwerte (Cholesterin, Triglyzeride)</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Fehlsichtigkeit_base_Fehlsichtigkeit_base</id>
+			<label>l. wegen Fehlsichtigkeit? z.B. Weit-oder Kurzsichtigkeit, Astigmatismus oder Verordnung von Sehhilfen</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Augen_base_Augen_base</id>
+			<label>m. der Augen? z.B. erhöhter Augendruck, Netzhauterkrankung, Entzündung des Sehnervs</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Ohren_base_Ohren_base</id>
+			<label>n. des Halses, der Nase, der Ohren? z.B. chronische Heiserkeit, Schwerhörigkeit, Ohrgeräusche (Tinnitus), Gleichgewichtsstörungen</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Unfall_base_Unfall_base</id>
+			<label>o. oder Störungen und Beschwerden infolge eines Unfalles, Verstrahlung oder Vergiftung?</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Beschwerden_ohne_Arztkontakt_base_Beschwerden_ohne_Arztkontakt_base</id>
+			<label>7. Hatten Sie in den letzten 6 Monaten vor Antragstellung Beschwerden in einem der oben erfragten Organbereiche (Fragen im Abschnitt C Nr. 6a - o), ohne einen Arzt oder Behandler aufzusuchen?</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>KH_base_KH_base</id>
+			<label>a. Krankenhaus-, Rehabilitations-, Kuraufenthalte oder ambulante Operationen stattgefunden?</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Behandlung_empfohlen_base_Behandlung_empfohlen_base</id>
+			<label>b. oder sind solche ärztlich empfohlen oder beabsichtigt?</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Gebrechen_base_Gebrechen_base</id>
+			<label>9. Bestehen oder bestanden körperliche Gebrechen (z.B. Fehlen von Gliedmaßen, Teil-Verluste oder Teil-Entfernung von Gliedmaßen oder Organen), geistige Beeinträchtigungen, erworbene Organfehler (z.B. erworbene Herzfehler), angeborene Erkrankungen (z.B. angeborene Herzfehler, Einzelniere) oder Entwicklungsstörungen oder Krebserkrankungen?</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>GDB_base_GDB_base</id>
+			<label>10. Besteht ein Grad der Behinderung (GdB), eine Erwerbsminderung (MdE) oder eine Wehrdienstbeschädigung (WDB) oder beziehen bzw. bezogen Sie Renten aus gesundheitlichen Gründen oder ist eine solche beantragt?</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Medikamente_base_Medikamente_base</id>
+			<label>11. Nahmen Sie in den letzten 5 Jahren oder nehmen Sie regelmäßig oder zusammenhängend über mehr als 4 Wochen Medikamente ein bzw. wurde Ihnen die Einnahme verordnet?</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>AU_Abfrage_base_AU_Abfrage_base</id>
+			<label>12. Waren Sie in den letzten 3 Jahren mehr als 10 Kalendertage ununterbrochen erkrankt\/ arbeitsunfähig?</label>
+			<answer>nein</answer>
+		</question>
+		<question>
+            <id>Hausarzt_base_Hausarzt_base</id>
+			<label>13. Haben Sie einen Hausarzt bzw. einen Arzt oder Behandler (z.B. Arzt, Heilpraktiker, Physiotherapeut), der über Ihre Gesundheitsverhältnisse umfassend informiert ist?</label>
+			<answer>nein</answer>
+		</question>
+	</questions>
+	<results>
+		<result>
+			<case_created>2017-07-28 10:35:52</case_created>
+			<case_modified>2017-07-28 10:36:04</case_modified>
+			<case_closed>2017-07-28 10:41:51</case_closed>
+			<riskType>AD1</riskType>
+			<status>Ablehnung</status>
+			<metastatus>declined</metastatus>
+			<postponePeriod>36</postponePeriod>
+			<declined>true</declined>
+			<premiumLoading>200</premiumLoading>
+			<sumAssuredLoading>0</sumAssuredLoading>
+			<rejected>true</rejected>
+			<calculable>false</calculable>
+			<has_exclusions>false</has_exclusions>
+			<tests>
+				<test>FB Freizeit-Motorradsport</test>
+				<source>Motorradsport</source>
+				<ordinal>796</ordinal>
+			</tests>
+			<conditions>
+				<name>Maximale Erschwerung</name>
+				<alias>Maximale Erschwerung</alias>
+				<basequestion />
+				<actions>
+					<label>Ablehnung</label>
+					<declined>Yes</declined>
+				</actions>
+			</conditions>
+			<conditions>
+				<name>Depression</name>
+				<alias>Depression</alias>
+				<basequestion>Psyche_base</basequestion>
+				<actions>
+					<label>Zurückstellung 3 Jahre</label>
+					<postponePeriod>36</postponePeriod>
+					<premiumLoading>0</premiumLoading>
+					<tests>
+						<test></test>
+						<source>Depression</source>
+					</tests>
+				</actions>
+			</conditions>
+			<conditions>
+				<name>Motorradsport</name>
+				<alias>Motorradsport</alias>
+				<basequestion>Besondere_Gefahren_Hobby1_base</basequestion>
+				<actions>
+					<label>Fragebogen Freizeit Motorradsport</label>
+					<tests>
+						<test>FB Freizeit-Motorradsport</test>
+						<source>Motorradsport</source>
+					</tests>
+				</actions>
+			</conditions>
+			<conditions>
+				<name>Fallschirmspringen</name>
+				<alias>Fallschirmspringen</alias>
+				<basequestion>Besondere_Gefahren_Hobby1_base</basequestion>
+				<actions>
+					<label>100%</label>
+					<premiumLoading>100</premiumLoading>
+				</actions>
+			</conditions>
+			<conditions>
+				<name>Asthma</name>
+				<alias>Asthma</alias>
+				<basequestion>Lunge_base</basequestion>
+				<actions>
+					<label>100%</label>
+					<premiumLoading>100</premiumLoading>
+				</actions>
+			</conditions>
+		</result>
+		<result>
+			<case_created>2017-07-28 10:35:52</case_created>
+			<case_modified>2017-07-28 10:36:04</case_modified>
+			<case_closed>2017-07-28 10:41:51</case_closed>
+			<riskType>BUZ-BV</riskType>
+			<status>Ablehnung</status>
+			<metastatus>declined</metastatus>
+			<postponePeriod>36</postponePeriod>
+			<declined>true</declined>
+			<premiumLoading>200</premiumLoading>
+			<sumAssuredLoading>0</sumAssuredLoading>
+			<rejected>true</rejected>
+			<calculable>false</calculable>
+			<has_exclusions>false</has_exclusions>
+			<tests>
+				<test>FB Freizeit-Motorradsport</test>
+				<source>Motorradsport</source>
+				<ordinal>796</ordinal>
+			</tests>
+			<conditions>
+				<name>Maximale Erschwerung</name>
+				<alias>Maximale Erschwerung</alias>
+				<basequestion />
+				<actions>
+					<label>Ablehnung</label>
+					<declined>Yes</declined>
+				</actions>
+			</conditions>
+			<conditions>
+				<name>Depression</name>
+				<alias>Depression</alias>
+				<basequestion>Psyche_base</basequestion>
+				<actions>
+					<label>Zurückstellung 3 Jahre</label>
+					<postponePeriod>36</postponePeriod>
+					<premiumLoading>0</premiumLoading>
+					<tests>
+						<test></test>
+						<source>Depression</source>
+					</tests>
+				</actions>
+			</conditions>
+			<conditions>
+				<name>Motorradsport</name>
+				<alias>Motorradsport</alias>
+				<basequestion>Besondere_Gefahren_Hobby1_base</basequestion>
+				<actions>
+					<label>Fragebogen Freizeit Motorradsport</label>
+					<tests>
+						<test>FB Freizeit-Motorradsport</test>
+						<source>Motorradsport</source>
+					</tests>
+				</actions>
+			</conditions>
+			<conditions>
+				<name>Fallschirmspringen</name>
+				<alias>Fallschirmspringen</alias>
+				<basequestion>Besondere_Gefahren_Hobby1_base</basequestion>
+				<actions>
+					<label>100%</label>
+					<premiumLoading>100</premiumLoading>
+				</actions>
+			</conditions>
+			<conditions>
+				<name>Asthma</name>
+				<alias>Asthma</alias>
+				<basequestion>Lunge_base</basequestion>
+				<actions>
+					<label>100%</label>
+					<premiumLoading>100</premiumLoading>
+				</actions>
+			</conditions>
+		</result>
+		<result>
+			<case_created>2017-07-28 10:35:52</case_created>
+			<case_modified>2017-07-28 10:36:04</case_modified>
+			<case_closed>2017-07-28 10:41:51</case_closed>
+			<riskType>LEBEN</riskType>
+			<status>Zusätzliche Unterlagen</status>
+			<metastatus>agio-add-docs</metastatus>
+			<postponePeriod>0</postponePeriod>
+			<premiumLoading>50</premiumLoading>
+			<sumAssuredLoading>0</sumAssuredLoading>
+			<rejected>false</rejected>
+			<calculable>true</calculable>
+			<has_exclusions>false</has_exclusions>
+			<tests>
+				<test>FB Freizeit-Motorradsport</test>
+				<source>Motorradsport</source>
+				<ordinal>796</ordinal>
+			</tests>
+			<tests>
+				<test>Ärztlicher Bericht</test>
+				<source>Depression</source>
+				<ordinal>773</ordinal>
+			</tests>
+			<conditions>
+				<name>Motorradsport</name>
+				<alias>Motorradsport</alias>
+				<basequestion>Besondere_Gefahren_Hobby1_base</basequestion>
+				<actions>
+					<label>Fragebogen Freizeit Motorradsport</label>
+					<tests>
+						<test>FB Freizeit-Motorradsport</test>
+						<source>Motorradsport</source>
+					</tests>
+				</actions>
+			</conditions>
+			<conditions>
+				<name>Depression</name>
+				<alias>Depression</alias>
+				<basequestion>Psyche_base</basequestion>
+				<actions>
+					<label>ÄB</label>
+					<postponePeriod>0</postponePeriod>
+					<premiumLoading>0</premiumLoading>
+					<tests>
+						<test>Ärztlicher Bericht</test>
+						<source>Depression</source>
+					</tests>
+				</actions>
+			</conditions>
+			<conditions>
+				<name>Asthma</name>
+				<alias>Asthma</alias>
+				<basequestion>Lunge_base</basequestion>
+				<actions>
+					<label>50%</label>
+					<premiumLoading>50</premiumLoading>
+				</actions>
+			</conditions>
+			<conditions>
+				<name>Fallschirmspringen</name>
+				<alias>Fallschirmspringen</alias>
+				<basequestion>Besondere_Gefahren_Hobby1_base</basequestion>
+				<actions>
+					<label>Normalannahme</label>
+					<premiumLoading>0</premiumLoading>
+				</actions>
+			</conditions>
+		</result>
+	</results>
+</case>
