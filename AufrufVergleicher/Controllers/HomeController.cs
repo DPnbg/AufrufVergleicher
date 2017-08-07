@@ -112,6 +112,7 @@ namespace AufrufVergleicher.Controllers
 								bList.Add((byte)b);
 								b = xstream.ReadByte();
 							}
+							xtraData = bList.ToArray();
 						}
 
 
