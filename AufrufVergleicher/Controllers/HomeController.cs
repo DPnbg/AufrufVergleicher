@@ -57,7 +57,24 @@ namespace AufrufVergleicher.Controllers
 						writer.Flush();
 						BT4allFile = mem.GetBuffer().Take((int)mem.Length).ToArray();
 					}
-				} else
+				}
+				else if (fname.EndsWith(".txt", StringComparison.CurrentCultureIgnoreCase)) {
+					var biproString = new System.IO.StreamReader(stream).ReadToEnd();
+					using (var mem = new System.IO.MemoryStream()) {
+						var writer = new Newtonsoft.Json.JsonTextWriter(
+							new System.IO.StreamWriter(mem));
+						writer.WriteStartObject();
+						writer.WritePropertyName("module");
+						writer.WriteValue("BU");
+						writer.WritePropertyName("data");
+						writer.WriteValue(biproString);
+						writer.WriteEndObject();
+						writer.Flush();
+						BT4allFile = mem.GetBuffer().Take((int)mem.Length).ToArray();
+					}
+				}
+
+                else
 				//PDF auspacken
 				{
 
@@ -112,7 +129,6 @@ namespace AufrufVergleicher.Controllers
 								bList.Add((byte)b);
 								b = xstream.ReadByte();
 							}
-							xtraData = bList.ToArray();
 						}
 
 
