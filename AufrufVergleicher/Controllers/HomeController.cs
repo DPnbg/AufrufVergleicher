@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 
@@ -10,7 +11,8 @@ namespace AufrufVergleicher.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+
+			return View();
         }
 
         public ActionResult About()
@@ -35,7 +37,7 @@ namespace AufrufVergleicher.Controllers
             string StartID = null;
 
 
-            if (string.IsNullOrWhiteSpace(fname))
+			if (string.IsNullOrWhiteSpace(fname))
             {
                 err = "Der übergebene Parameter fname darf n icht leer sein. Starten Sie am besten die Anwendung über die Index.cshtml.";
             }
@@ -53,6 +55,10 @@ namespace AufrufVergleicher.Controllers
 						writer.WriteValue("YA");
 						writer.WritePropertyName("data");
 						writer.WriteValue(biproString);
+
+						writer.WritePropertyName("callBackURL");
+						writer.WriteValue("https://nuernberger.de");
+
 						writer.WriteEndObject();
 						writer.Flush();
 						BT4allFile = mem.GetBuffer().Take((int)mem.Length).ToArray();
@@ -65,9 +71,13 @@ namespace AufrufVergleicher.Controllers
 							new System.IO.StreamWriter(mem));
 						writer.WriteStartObject();
 						writer.WritePropertyName("module");
-						writer.WriteValue("BU");
+						writer.WriteValue("LVLebenPrivat_6");
 						writer.WritePropertyName("data");
 						writer.WriteValue(biproString);
+
+						writer.WritePropertyName("callBackURL");
+						writer.WriteValue("https://nuernberger.de");
+
 						writer.WriteEndObject();
 						writer.Flush();
 						BT4allFile = mem.GetBuffer().Take((int)mem.Length).ToArray();
@@ -116,8 +126,10 @@ namespace AufrufVergleicher.Controllers
                 {
                     try
                     {
+                        //var Req = System.Net.WebRequest.Create("http://localhost/BT4All/SV/d.svc/m?i=getStartID_SLS_NoSign");
                         var Req = System.Net.WebRequest.Create("https://test.nuernberger-bt4all.de/BT4All/SV/d.svc/m?i=getStartID_SLS_NoSign");
                         Req.Method = "POST";
+						//Req.UseDefaultCredentials = true;
 
                         var xtraData = new byte[0];
 						if (do_xtraData) {
